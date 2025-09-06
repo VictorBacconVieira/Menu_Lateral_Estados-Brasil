@@ -1,0 +1,173 @@
+*{
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: #014b11;
+    color: white;
+    width: 250px; /*Tamanho da Largura*/
+    height: 100%; /*Tamanho da Altura*/
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+nav ul{ 
+    list-style: none;
+}
+
+nav li{
+    padding: 15px;
+    text-align: center;
+}
+
+nav li:hover{
+    background-color: #038a20;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul h1{
+    text-align: center;
+    font-size: 35px;
+}
+
+main{
+    padding: 20px;
+    margin-left: 250px;
+}
+
+main h1{
+    color: #063a11
+}
+main p{
+    color: #038a20;
+}
+
+/*Sublista 1*/
+nav ul ul.submenu1 {
+    display: none;
+    background-color: #063a11;
+    position: absolute;
+    left: 250px; 
+    top: 0;
+    min-width: 200px;
+}
+
+nav li:hover .submenu1 {
+    display: block;
+}
+
+nav ul ul.submenu1 li {
+    text-align: left;
+    padding: 15px;
+    border-bottom: 1px solid #014b11;
+}
+
+nav ul ul.submenu1 li:hover {
+    background-color: #038a20;
+}
+
+
+/*Sublista 2*/
+nav ul ul.submenu2 {
+    display: none;
+    background-color: #063a11;
+    position: absolute;
+    left: 250px; 
+    top: 48px;
+    min-width: 200px;
+}
+
+nav li:hover .submenu2 {
+    display: block;
+}
+
+nav ul ul.submenu2 li {
+    text-align: left;
+    padding: 17px;
+    border-bottom: 1px solid #014b11;
+}
+
+nav ul ul.submenu2 li:hover {
+    background-color: #038a20;
+}
+
+
+/*Sublista 3*/
+nav ul ul.submenu3 {
+    display: none;
+    background-color: #063a11;
+    position: absolute;
+    left: 250px; 
+    top: 96px;
+    min-width: 200px;
+}
+
+nav li:hover .submenu3 {
+    display: block;
+}
+
+nav ul ul.submenu3 li {
+    text-align: left;
+    padding: 17px;
+    border-bottom: 1px solid #014b11;
+}
+
+nav ul ul.submenu3 li:hover {
+    background-color: #038a20;
+}
+
+
+/*Sublista 4*/
+nav ul ul.submenu4 {
+    display: none;
+    background-color: #063a11;
+    position: absolute;
+    left: 250px; 
+    top: 145px;
+    min-width: 200px;
+}
+
+nav li:hover .submenu4 {
+    display: block;
+}
+
+nav ul ul.submenu4 li {
+    text-align: left;
+    padding: 17px;
+    border-bottom: 1px solid #014b11;
+}
+
+nav ul ul.submenu4 li:hover {
+    background-color: #038a20;
+}
+
+/*Sublista 5*/
+nav ul ul.submenu5 {
+    display: none;
+    background-color: #063a11;
+    position: absolute;
+    left: 250px; 
+    top: 193px;
+    min-width: 200px;
+}
+
+nav li:hover .submenu5 {
+    display: block;
+}
+
+nav ul ul.submenu5 li {
+    text-align: left;
+    padding: 17px;
+    border-bottom: 1px solid #014b11;
+}
+
+nav ul ul.submenu5 li:hover {
+    background-color: #038a20;
+}
